@@ -144,7 +144,7 @@ nav button {
 }
 
 
-/* ****Media Queries-SM****** */
+/* ****Media Queries-md/sm****** */
 @media screen and (max-width: 1024px) {
 	.container {
 			width: var(--container-md);
@@ -254,6 +254,11 @@ header{
 /* ****Media Queries-md****** */
 @media screen and (max-width: 1024px){
 
+	header{
+		height: 100%;
+		padding-bottom: 1.5rem;
+	}
+
 	.container{
 		width: var(--container-md);
 	}
@@ -272,5 +277,25 @@ header{
 
 
 /* ****Media Queries-sm****** */
+@media screen and (max-width: 600px){
 
+	header{
+		height: 100%;
+	}
+	.container{
+		width: var(--container-sm);
+	}
+
+	.hero {
+		grid-template-columns: 1fr;
+	}
+	.hero-text-content h1 {
+		font-size: 1.5rem;
+	}
+
+	.hero-text-content p {
+		font-size: 1rem;
+	}
+	
+}
 /* ******header/Hero End ********* */
