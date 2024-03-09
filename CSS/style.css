@@ -340,7 +340,34 @@ header{
 /* ****Media Queries-md****** */
 @media screen and (max-width: 1024px) {
 
+	.container{
+		width: var(--container-md);
+	}
+
+	section {
+		margin-top: 2rem;
+		}
+	section>p {
+		width: var(--container-md);
+		margin: .5rem auto 3rem;
+		font-size: 1.1rem;
+		}
 	
+	section>h2 {
+		font-size: 2rem;
+		padding-bottom: .3rem;
+		font-weight: 700;
+	
+		}
+
+	.services {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+	
+		}
+	.single-service {
+		gap: .8rem;
+		}
 
 }
 
@@ -348,7 +375,47 @@ header{
 /* ****Media Queries-sm****** */
 @media screen and (max-width: 600px) {
 
+	.container {
+			width: var(--container-sm);
+		}
+	
+		section {
+			margin-top: 1rem;
+		}
+	
+		section>p {
+			text-align: justify;
+			width: var(--container-sm);
+			margin: .5rem auto 2rem;
+			line-height: 1.2;
+			letter-spacing: -.7px;
+		}
+	
+		section>h2 {
+			font-size: 1.5rem;
+			padding-bottom: .1rem;	
+		}
+	
+		.services {
+			grid-template-columns: 1fr;
+			gap: 1.2rem;
+	
+		}
+	
+		.single-service {
+			gap: .5rem;
+			padding: 1rem;
+		}
 
-
+		.single-service h4 {
+			padding-bottom: .5rem;
+			font-size: 1rem;
+		}
+	
+		.service-icon i {
+			font-size: 1.3rem;
+		}
+	
 }
+
 /* ******Services End ********* */
