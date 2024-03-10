@@ -740,6 +740,66 @@ header{
 }
 /* ******Appointment End ********* */
 
+/* ******Footer Start ********* */
+
+footer{
+	background-color: var(--black-color);
+	color: var(--light-color);
+	margin-top: 6rem;
+	padding-top: 5rem;
+}
+
+#footer{
+	padding-bottom: 6rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.contact-info{
+	display: grid;
+	gap: 1rem;
+}
+
+.contact-info .nav-logo h2{
+    color: var(--white-color);
+}
+
+.contact-info address{
+	display: grid;
+	gap: 1rem;
+	font-style: normal;
+}
+.contact-info address a{
+	color: var(--light-color);
+}
+
+.contact-info address > p{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start; 
+	gap: .5rem;
+}
+
+
+#footer .support{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#footer .support h2{
+	color: var(--white-color);
+	padding-bottom: .6rem;
+}
+
+#footer .support a{
+	color: var(--light-color);
+}
+
+
+/* ******Footer End ********* */
+
+
 
 
 
