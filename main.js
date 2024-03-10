@@ -17,3 +17,29 @@ closeBtn.addEventListener('click', () => {
 });
 
 
+
+
+// testimonial (SwiperJS)
+
+let swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 25,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+    //   Responsive
+
+    breakpoints:{
+        // width > 600px
+        600:{
+            slidesPerView: 2,
+        },
+        1024:{
+            slidesPerView: 3,
+        }
+
+    }
+    });
+
