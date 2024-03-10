@@ -603,6 +603,16 @@ header{
 
 }
 
+@media screen and (max-width: 600px){
+
+	#testimonials{
+		margin-top: 3rem;
+	}
+	#testimonials h2{
+		font-size: 1.3rem;
+	}
+}
+
 
 /* ******Testimonial End ********* */
 
@@ -696,6 +706,22 @@ header{
 
 /* ****Media Queries-sm****** */
 @media screen and (max-width: 600px){
+
+	.appointment {
+		grid-template-columns:  1fr;
+	}
+
+	.grid-layout .icon {
+		padding: .5rem;
+		font-size: 1rem;
+	}
+	.appointment-text-content {
+		gap: 1rem;
+		}
+	.form-group textarea {
+		height: 6rem;
+		
+	}
 	
 }
 
@@ -708,7 +734,7 @@ header{
 		}
 
 	.appointment {
-			gap: 2rem;
+			gap: 1rem;
 		}
 
 }
