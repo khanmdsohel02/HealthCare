@@ -18,7 +18,7 @@
 	--white-color: #ffffff;
 	--light-color: rgba(255, 255, 255, 0.7);
 	--black-color: #0c031b;
-	--dark-black-color: rgba(12, 3, 27, 0.7);
+	--regular-color: #566266;
 	--dark-color: rgba(12, 3, 27, 0.1);
 	--success-color: #54eb72;
 
@@ -37,7 +37,7 @@ html{
 body{
 	font-family: var(--fontFamily);
 	line-height: 1.5;
-	color: var(--dark-black-color);
+	color: var(--regular-color);
 	background-color: rgba(var(--primary-color-variant, 0.1));
 	user-select: none;
 }
@@ -476,7 +476,6 @@ header{
 .specialist-card-text{
    text-align: center;
    margin: 1.3rem 0 ;
-   color: var(--dark-black-colorblack-color);
 }
 
 .specialist-card .social-links{
@@ -614,6 +613,54 @@ header{
 	width: var(--container-md);
 }
 
+.appointment{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.appointment-text-content{
+	display: grid;
+	gap: 1rem;
+}
+
+.appoint-heading h2{
+	font-size: 1.7rem;
+	padding-bottom: .7rem;
+	font-weight: 700;
+}
+
+.appoint-heading p{
+	font-size: 1.1rem;
+}
+
+.appointment-text-content .grid-layout{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 1.3rem;
+}
+
+.grid-layout .icon{
+	display: grid;
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	padding: .9rem;
+	border-radius: 50%;
+	font-size: 1.5rem;
+}
+
+.grid-layout .about-text h4 {
+	font-size: 1.1rem;
+}
+
+.grid-layout .about-text p{
+	padding-top: .7rem;
+	font-size: 15px;
+	
+}
 
 
 /* ******Appointment End ********* */
