@@ -4,6 +4,7 @@ book the doctor's appointment.This website is mainly for those who have physical
 
 <h3 align="left">Features:</h3>
 -Appointment Booking System
+
 -Real-Time Messaging
 
 <h3 align="left">Technologies:</h3> HTML, CSS, JS
